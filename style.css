@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#container{
+    
+    width: 100%;
+    position: relative;
+    height: 100vh;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: white;
+}
+
+#img-logo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+    color: white;
+    margin-left: 60px;
+
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+
+
+#mainname{
+    margin-top: 80px;
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    margin-left: 150px;
+    color:white;
+}
+
+#subname{
+    color: orange;
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    
+   
+}
+
+#personal-details{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color: white;
+    font-size: 20px;
+}
+
+#home{
+    display: flex;
+}
+
+.home-content{
+    width: 500px;
+    margin-left: 100px;
+
+}
+
+#dwnld{
+    margin-left: 150px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: 50px;
+    border: 2px solid white;
+    background-color:orange;
+    border-radius: 20px;
+    padding: 8px;
+    
+
+   
+}
+
+#man{
+    width: 645px;
+    height: 500px;
+    border-radius: 200px;
+    margin-top: 50px;
+    
+}
+
+
+
+.home-images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+   
+
+}
+
+.group1{
+
+    position: absolute;
+    height: 100%;
+    left:   0px;
+    bottom: 0px;
+    top: -50px;
+    
+}
+
+.links:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+
+.about-head{
+   
+    margin-top: 180px;
+
+}
+
+#head1{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+}
+
+#para1{
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: -320px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 600;
+    text-align:justify;
+    padding-right:30px ;
+    color:white;
+    font-family: "Baskervville SC", serif;
+}
+
+#head2{
+    margin-left: 200px;
+    color: orange;
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline white;
+    
+}
+
+.about-content{
+    margin-top: 350px;
+}
+
+.about-details{
+    margin-left: 500px;
+    font-size: 25px;
+    text-decoration: none;
+    line-height: 1.5;
+    margin-top: 50px;
+    color: antiquewhite;
+}
+
+.about-images{
+    margin-top: -20px;
+    
+}
+
+.about-images>img{
+    margin-top: 20px;
+    height: 400px;
+    width: 500px;
+}
+
+i{
+    padding-right: 20px;
+}
+
+h5{
+    font-family: "Nerko One", cursive;
+    font-size: 25px;
+    font-weight: -200px;
+}
+
+.skill-head{
+    
+    margin-top: 100px;
+
+}
+
+#head3{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+}
+
+#head4{
+    margin-left: 200px;
+    font-size: 30px;
+    color: orange;
+    margin-top: 100px;
+    text-decoration: underline white;
+}
+
+
+#skills{
+    margin: 8% 8% 0% 8%;
+}
+
+.skill-content{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 0.5rem;
+    margin-top: 60px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+.progress-bar{
+    margin-left: 100px;
+}
+
+.skill-bar{
+    font-family: "Nerko One", system-ui;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+
+.bar-head,.bar-percentage{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color:white;
+    border: 2px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.html-bar{
+    background-color: orange;
+    width: 80%;
+}
+
+.css-bar{
+    background-color: orange;
+    width: 75%;
+}
+
+.bootstrap-bar{
+    background-color: orange;
+    width: 70%;
+}
+
+
+.skill-image{
+   margin-left: 200px;
+   margin-top: -150px;
+   margin-right: 50px;
+}
+
+#Contacts{
+    margin: 8%;
+    
+}
+
+#head6{
+   text-align: center;
+    color: orange;
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline white;
+
+}
+
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.icon{
+    background-color: orange;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 25px;
+    margin-left: 20px;
+    
+
+}
+
+.brand{
+    color: black;
+    
+}
+
+.brand:hover{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    
+}
+
+#copyright{
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}

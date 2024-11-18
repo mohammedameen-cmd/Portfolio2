@@ -97,7 +97,8 @@ nav{
     width: 350px;
     height:350px;
     border-radius: 50px;
-    margin-left: 220px;
+    margin-left: 100px;
+    border: whitesmoke 6px outset;
     
 
     

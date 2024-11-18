@@ -94,10 +94,14 @@ nav{
 }
 
 #man{
-    width: 645px;
-    height: 500px;
-    border-radius: 200px;
-    margin-top: 50px;
+    width: 350px;
+    height:350px;
+    border-radius: 50px;
+    margin-left: 220px;
+    
+
+    
+    margin-top: 120px;
     
 }
 
@@ -108,10 +112,19 @@ nav{
     height: 80%;
     position: absolute;
     bottom: 0px;
-    right: 30px;
+    right: 100px;
+}
+    
+    
+    
+      
+    
+ 
+    
+
    
 
-}
+
 
 .group1{
 

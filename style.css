@@ -184,7 +184,7 @@ nav{
 }
 
 .about-details{
-    margin-left: 500px;
+    margin-left: 430px;
     font-size: 25px;
     text-decoration: none;
     line-height: 1.5;
@@ -213,6 +213,55 @@ h5{
     font-weight: -200px;
 }
 
+#Education{
+    margin-top: 150px;
+}
+
+.Education-content{
+    margin-top: 60px;
+
+}
+
+
+.edu-list{
+    text-align: center;
+    color:green;
+    font-size: 30px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+#college{
+    color: white;
+}
+
+#para2{
+    
+    text-align: center;
+    
+    
+}
+
+#edu-year{
+    color: orange;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+
+.edu{
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin-left: 480px;
+    border-color: blueviolet;
+    border-radius: 20px;
+    padding-top: 10px;
+    
+
+}
+
+
 .skill-head{
     
     margin-top: 100px;
@@ -234,9 +283,8 @@ h5{
     text-decoration: underline white;
 }
 
-
-#skills{
-    margin: 8% 8% 0% 8%;
+#myskill{
+    margin-right: 60px;
 }
 
 .skill-content{
